@@ -1,0 +1,22 @@
+3.7->3.8更新文件：
+controllers/admin.php
+views／admin.php
+models/admin_model
+controllers/test.php
+  show_echarts函数
+  show_echarts_example函数
+views/show_echarts_example
+views/show_echarts_sequence
+views/show_echarts_sequence_vol_first
+
+
+3.8—>3.9更新文件
+controllers/admin.php
+views／admin.php
+models/admin_model
+controllers/test.php
+  show_echarts函数
+  show_echarts_example函数
+views/show_echarts_example
+views/show_echarts_sequence
+views/show_echarts_sequence_vol_first

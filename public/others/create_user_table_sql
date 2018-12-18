@@ -1,0 +1,9 @@
+CREATE TABLE `trading_test_user` (
+           `id` int(11) unsigned zerofill NOT NULL AUTO_INCREMENT,
+           `user` varchar(20) UNIQUE NOT NULL,
+           `pass` char(32) NOT NULL,
+           `role` enum('root','normal') NOT NULL DEFAULT 'root',
+           `del` decimal(1,0) NOT NULL DEFAULT '0',
+           PRIMARY KEY (`id`)
+         ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1
+         
